@@ -1,0 +1,52 @@
+{
+"assets": [
+{
+"path": "image\\cover.png",
+"md5": "d648340f0f4057beb0153395f5532663"
+},
+{
+"path": "image\\cursor.png",
+"md5": "694d3ff72303b4f1008284334cc2e6f9"
+},
+{
+"path": "image\\layout_autosave.png",
+"md5": "11b6a6c26f45c329ae072523cc78744c"
+},
+{
+"path": "image\\layout_bag.png",
+"md5": "237f560f267695808865819a6b246832"
+},
+{
+"path": "image\\layout_menu.png",
+"md5": "3ebc19959c22cfcb8e6832b2cf46868b"
+},
+{
+"path": "image\\layout_object.png",
+"md5": "0f9f9af95a60f2fd82b8219072eb43bb"
+},
+{
+"path": "image\\layout_object_next.png",
+"md5": "215eaaf395b3846d97b7a216aa1532a0"
+},
+{
+"path": "image\\layout_object_prev.png",
+"md5": "5e903829a7200afff6c700d6a9813720"
+},
+{
+"path": "image\\layout_player.png",
+"md5": "d92e6a155ac70fa273812b8130da1283"
+},
+{
+"path": "image\\layout_shutup.png",
+"md5": "a5170c4a79291c9bea4e8c85a2b4b9b7"
+},
+{
+"path": "image\\menu.png",
+"md5": "c1151c4b7cf9c16beee9edf9a18738c3"
+},
+{
+"path": "asset\\player\\p_hero\\icon\\0.png",
+"md5": "49c8e988e6ab78310087c35011316e14"
+}
+]
+}
