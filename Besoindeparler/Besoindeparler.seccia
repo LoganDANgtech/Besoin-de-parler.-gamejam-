@@ -126,7 +126,7 @@
 "scenario": {
 "board": {
 "nextid": 17,
-"x": 602,
+"x": 357,
 "sections": [
 {
 "width": 256
@@ -187,8 +187,8 @@
 {
 "type": 256,
 "id": 14,
-"name": "#code",
-"x": 504,
+"name": "#unlock",
+"x": 488,
 "y": 128,
 "plugs": [
 {
@@ -278,10 +278,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 65,
-"nextID": 47,
-"x": 130,
-"y": 279,
+"zoom": 40,
+"nextID": 48,
+"x": -307,
+"y": -46,
 "role": "R_UNLOCK"
 },
 "objects": [
@@ -329,7 +329,8 @@
 {},
 {},
 {}
-]
+],
+"placement": "HUD A"
 },
 {
 "uid": "O_BAND",
@@ -377,7 +378,8 @@
 {},
 {},
 {}
-]
+],
+"placement": "HUD A"
 },
 {
 "uid": "O_HOUR",
@@ -1978,6 +1980,44 @@
 "b": 100
 }
 ]
+},
+{
+"uid": "O_BACKGROUND",
+"id": 47,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 425,
+"y": 2,
+"parallax": 100,
+"placement": "BACK",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ],
 "labels": [
@@ -1998,6 +2038,221 @@
 ],
 "sid": 6,
 "uid": "S_LOCKSCREEN"
+},
+{
+"scene": {
+"lightAmbient": -1,
+"lightBlur": -1,
+"layers": {
+"MA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+}
+},
+"zoom": 45,
+"nextID": 4,
+"x": -253,
+"y": -52
+},
+"objects": [
+{
+"uid": "O_BACKGROUND",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 216,
+"y": -1,
+"parallax": 100,
+"placement": "BACK",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_BAND1",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1227,
+"y": -1,
+"parallax": 100,
+"placement": "HUD A",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_BAND",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": -9,
+"parallax": 100,
+"placement": "HUD A",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"sid": 43,
+"uid": "S_HOMESCREEN"
 }
 ],
 "objects": [
@@ -2658,7 +2913,9 @@
 {
 "object": {
 "bbox": true,
-"maxScale": -1
+"maxScale": -1,
+"width": 1024,
+"height": 1024
 },
 "anims": [
 {
@@ -2671,7 +2928,19 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"md5": "c182ac8c67c743529515c26e60efd293",
+"wtrim": 1024,
+"htrim": 1024,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 1028,
+"hdraw": 1028
+}
+],
+"count": 1
 },
 {
 "name": "FRONT"
@@ -2759,7 +3028,23 @@
 }
 ],
 "sid": 17,
-"uid": "O_BACKGROUND"
+"uid": "O_BACKGROUND",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 1024,
+"h": 1024
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
 },
 {
 "object": {
@@ -4275,7 +4560,7 @@
 }
 ],
 "meta": {
-"nextAssetID": 43
+"nextAssetID": 44
 },
 "roles": [
 {
