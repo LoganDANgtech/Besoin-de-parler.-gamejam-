@@ -125,8 +125,8 @@
 },
 "scenario": {
 "board": {
-"nextid": 71,
-"x": -589,
+"nextid": 80,
+"x": -866,
 "sections": [
 {
 "width": 264
@@ -147,7 +147,7 @@
 "id": 1,
 "name": "start",
 "x": 56,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 2,
@@ -157,15 +157,14 @@
 ]
 }
 ],
-"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_LOCKSCREEN",
-"success": true
+"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_LOCKSCREEN"
 },
 {
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 2160,
-"y": 200,
+"x": 2512,
+"y": 176,
 "plugs": [
 {
 "id": 4,
@@ -178,7 +177,7 @@
 "id": 8,
 "name": "#scrollup",
 "x": 400,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 9,
@@ -198,7 +197,7 @@
 "id": 17,
 "name": "#btn1Pressed",
 "x": 504,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 18,
@@ -218,7 +217,7 @@
 "id": 20,
 "name": "#btn9Pressed",
 "x": 664,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 21,
@@ -238,7 +237,7 @@
 "id": 23,
 "name": "#btn8Pressed",
 "x": 776,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 24,
@@ -258,7 +257,7 @@
 "id": 26,
 "name": "#btn5Pressed",
 "x": 896,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 27,
@@ -278,7 +277,7 @@
 "id": 41,
 "name": "#lockscreen",
 "x": 288,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 42,
@@ -298,7 +297,7 @@
 "id": 44,
 "name": "#lockscreen",
 "x": 1048,
-"y": 160,
+"y": 168,
 "plugs": [
 {
 "id": 45,
@@ -318,7 +317,7 @@
 "id": 47,
 "name": "#homescreen",
 "x": 1216,
-"y": 160,
+"y": 232,
 "plugs": [
 {
 "id": 48,
@@ -338,8 +337,8 @@
 "type": 262,
 "id": 50,
 "name": "#homescreen",
-"x": 2000,
-"y": 200,
+"x": 2296,
+"y": 176,
 "plugs": [
 {
 "id": 51,
@@ -358,8 +357,8 @@
 "type": 256,
 "id": 56,
 "name": "#seenfmpic",
-"x": 1576,
-"y": 160,
+"x": 1616,
+"y": 176,
 "plugs": [
 {
 "id": 57,
@@ -378,8 +377,8 @@
 "type": 256,
 "id": 59,
 "name": "#listenradio",
-"x": 1704,
-"y": 160,
+"x": 1808,
+"y": 176,
 "plugs": [
 {
 "id": 60,
@@ -399,8 +398,8 @@
 "type": 256,
 "id": 62,
 "name": "#denonciation",
-"x": 1840,
-"y": 176,
+"x": 2024,
+"y": 48,
 "plugs": [
 {
 "id": 63,
@@ -419,8 +418,8 @@
 "type": 256,
 "id": 65,
 "name": "#Helper_message",
-"x": 1360,
-"y": 152,
+"x": 1424,
+"y": 176,
 "plugs": [
 {
 "id": 66,
@@ -3196,10 +3195,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 30,
-"nextID": 11,
-"x": -255,
-"y": -60,
+"zoom": 55,
+"nextID": 12,
+"x": -77,
+"y": 14,
 "role": "R_NAVIGATE"
 },
 "objects": [
@@ -3358,7 +3357,7 @@
 "",
 ""
 ],
-"x": 945,
+"x": 952,
 "y": 877,
 "parallax": 100,
 "lightAmbient": 255,
@@ -3390,12 +3389,12 @@
 "uid": "O_ICONMAPS",
 "depths": [
 {
-"a": 10,
+"a": 5,
 "b": 100
 },
 {
 "y": 1024,
-"a": 10,
+"a": 5,
 "b": 100
 }
 ],
@@ -3406,8 +3405,8 @@
 "",
 ""
 ],
-"x": 765,
-"y": 878,
+"x": 776,
+"y": 880,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -3503,8 +3502,8 @@
 "",
 ""
 ],
-"x": 620,
-"y": 877,
+"x": 626,
+"y": 876,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -3551,8 +3550,8 @@
 "",
 ""
 ],
-"x": 1076,
-"y": 877,
+"x": 1078,
+"y": 878,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -3590,6 +3589,55 @@
 ],
 "x": 910,
 "y": 512,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_REDDOT",
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+],
+"id": 11,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 755,
+"y": 921,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -4030,8 +4078,8 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 65,
-"nextID": 30,
+"zoom": 40,
+"nextID": 31,
 "x": 68,
 "y": 2,
 "role": "R_GOTOTEXTS"
@@ -4076,6 +4124,17 @@
 },
 {
 "uid": "O_BAND",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
 "id": 2,
 "tags": [
 "",
@@ -4539,6 +4598,55 @@
 {},
 {}
 ]
+},
+{
+"uid": "O_REDDOT",
+"depths": [
+{
+"a": 21,
+"b": 100
+},
+{
+"y": 1024,
+"a": 21,
+"b": 100
+}
+],
+"id": 30,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 1236,
+"y": 456,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ],
 "labels": [
@@ -4572,7 +4680,7 @@
 "",
 ""
 ],
-"x": 610,
+"x": 608,
 "y": 65,
 "width": 353,
 "height": 63,
@@ -4580,7 +4688,7 @@
 "en": "Hey mec ça va ?"
 },
 "placement": "HUD B",
-"size": 40,
+"size": 30,
 "color": "Gray",
 "align": "Left"
 },
@@ -4643,7 +4751,7 @@
 "en": "Où es-tu ?"
 },
 "placement": "HUD B",
-"size": 40,
+"size": 30,
 "color": "Gray",
 "align": "Left"
 },
@@ -4690,7 +4798,7 @@
 "align": "Left"
 },
 {
-"name": "LASTTXT1",
+"name": "LASTTXT2",
 "id": 16,
 "tags": [
 "",
@@ -4698,15 +4806,15 @@
 "",
 ""
 ],
-"x": 610,
-"y": 441,
+"x": 608,
+"y": 435,
 "width": 353,
 "height": 63,
 "text": {
-"en": "Tu t'en sors bien"
+"en": "Alors t'arrive a l'ouvr..."
 },
-"placement": "HUD B",
-"color": "Gray",
+"placement": "HUD A",
+"size": 30,
 "align": "Left"
 },
 {
@@ -4773,7 +4881,7 @@
 "height": 184
 },
 {
-"name": "LASTTXT1",
+"name": "LASTTXT3",
 "id": 25,
 "tags": [
 "",
@@ -4781,7 +4889,7 @@
 "",
 ""
 ],
-"x": 623,
+"x": 608,
 "y": 621,
 "width": 353,
 "height": 63,
@@ -4789,6 +4897,7 @@
 "en": "Surtout cache toi"
 },
 "placement": "HUD B",
+"size": 30,
 "color": "Gray",
 "align": "Left"
 },
@@ -6986,10 +7095,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 15,
-"nextID": 35,
-"x": -442,
-"y": -309,
+"zoom": 40,
+"nextID": 38,
+"x": -175,
+"y": 132,
 "role": "R_TEXTSHELP"
 },
 "objects": [
@@ -7003,8 +7112,8 @@
 ""
 ],
 "visible": 1,
-"x": 594,
-"y": 753,
+"x": 597,
+"y": 763,
 "parallax": 100,
 "blend": "Default",
 "placement": "BACK",
@@ -7319,8 +7428,8 @@
 ""
 ],
 "parent": "O_RECEIVERMEDIUM2",
-"x": 257,
-"y": -1104,
+"x": 269,
+"y": 646,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7368,57 +7477,8 @@
 ""
 ],
 "parent": "O_RECEIVERMEDIUM2",
-"x": 9,
-"y": -418,
-"parallax": 100,
-"lightAmbient": 255,
-"lightDiffuse": 16777215,
-"lightAngle": 30,
-"lightDist": -1,
-"grids": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-],
-"paths": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-],
-"depths": [
-{
-"a": 200,
-"b": 100
-},
-{
-"y": 1024,
-"a": 200,
-"b": 100
-}
-]
-},
-{
-"uid": "O_RECEIVERXSMALL",
-"id": 23,
-"tags": [
-"",
-"",
-"",
-""
-],
-"parent": "O_RECEIVERMEDIUM2",
-"x": -10,
-"y": -1223,
+"x": -5,
+"y": 539,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7503,8 +7563,8 @@
 ""
 ],
 "parent": "O_RECEIVERMEDIUM2",
-"x": -9,
-"y": -991,
+"x": -4,
+"y": 233,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7593,55 +7653,6 @@
 ]
 },
 {
-"uid": "O_RECEIVERSMALL1",
-"id": 27,
-"tags": [
-"",
-"",
-"",
-""
-],
-"parent": "O_RECEIVERMEDIUM2",
-"x": 17,
-"y": -736,
-"parallax": 100,
-"lightAmbient": 255,
-"lightDiffuse": 16777215,
-"lightAngle": 30,
-"lightDist": -1,
-"grids": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-],
-"paths": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-],
-"depths": [
-{
-"a": 200,
-"b": 100
-},
-{
-"y": 1024,
-"a": 200,
-"b": 100
-}
-]
-},
-{
 "uid": "O_SENDERMEDIUM2",
 "id": 28,
 "tags": [
@@ -7651,58 +7662,8 @@
 ""
 ],
 "parent": "O_RECEIVERMEDIUM2",
-"x": 261,
-"y": -599,
-"parallax": 100,
-"lightAmbient": 255,
-"lightDiffuse": 16777215,
-"lightAngle": 30,
-"lightDist": -1,
-"grids": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-],
-"paths": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-],
-"depths": [
-{
-"a": 200,
-"b": 100
-},
-{
-"y": 1024,
-"a": 200,
-"b": 100
-}
-]
-},
-{
-"uid": "O_SENDERBIG1",
-"id": 29,
-"tags": [
-"",
-"",
-"",
-""
-],
-"visible": 1,
-"parent": "O_RECEIVERMEDIUM2",
-"x": 259,
-"y": -222,
+"x": 256,
+"y": 390,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7786,8 +7747,8 @@
 "",
 ""
 ],
-"x": 601,
-"y": 918,
+"x": 600,
+"y": 917,
 "parallax": 100,
 "placement": "HUD B",
 "lightAmbient": 255,
@@ -7861,12 +7822,21 @@
 "b": 100
 }
 ]
+},
+{
+"uid": "O_RECEIVERSMALL1",
+"depths": [
+{
+"a": 183,
+"b": 100
+},
+{
+"y": 1024,
+"a": 183,
+"b": 100
 }
 ],
-"labels": [
-{
-"name": "DATESEP",
-"id": 22,
+"id": 35,
 "tags": [
 "",
 "",
@@ -7874,20 +7844,48 @@
 ""
 ],
 "parent": "O_RECEIVERMEDIUM2",
-"x": 12,
-"y": -306,
-"width": 624,
-"height": 100,
-"text": {
-"en": "----- hier -----"
-},
-"placement": "BACK",
-"size": 30,
-"color": "Silver"
+"x": -16,
+"y": 763,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 },
 {
-"name": "DATESEP",
-"id": 30,
+"uid": "O_SENDERXSMALL",
+"depths": [
+{
+"a": 158,
+"b": 100
+},
+{
+"y": 1024,
+"a": 158,
+"b": 100
+}
+],
+"id": 36,
 "tags": [
 "",
 "",
@@ -7895,20 +7893,48 @@
 ""
 ],
 "parent": "O_RECEIVERMEDIUM2",
-"x": 9,
-"y": -826,
-"width": 624,
-"height": 100,
-"text": {
-"en": "----- 27/03 -----"
-},
-"placement": "BACK",
-"size": 30,
-"color": "Silver"
+"x": 433,
+"y": 157,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 },
 {
-"name": "DATESEP",
-"id": 31,
+"uid": "O_SENDERBIG",
+"depths": [
+{
+"a": 125,
+"b": 100
+},
+{
+"y": 1024,
+"a": 125,
+"b": 100
+}
+],
+"id": 37,
 "tags": [
 "",
 "",
@@ -7916,17 +7942,33 @@
 ""
 ],
 "parent": "O_RECEIVERMEDIUM2",
-"x": 7,
-"y": -1319,
-"width": 624,
-"height": 100,
-"text": {
-"en": "----- 25/03 -----"
-},
-"placement": "BACK",
-"hud": true,
-"size": 30,
-"color": "Silver"
+"x": 395,
+"y": 909,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ],
 "sid": 69,
@@ -10488,7 +10530,7 @@
 "width": 348,
 "height": 198,
 "text": {
-"en": "fe"
+"en": "50,0FM"
 }
 }
 ],
@@ -13211,9 +13253,8 @@
 {
 "object": {
 "bbox": true,
-"maxScale": -1,
-"width": 992,
-"height": 1032
+"width": 1998,
+"height": 2004
 },
 "anims": [
 {
@@ -13229,15 +13270,15 @@
 "name": "RIGHT",
 "frames": [
 {
-"md5": "b4a57db15607b7b9a1fa41fa81360385",
-"xtrim": 80,
-"ytrim": 94,
-"wtrim": 836,
-"htrim": 838,
-"xdraw": 78,
-"ydraw": 92,
-"wdraw": 840,
-"hdraw": 842
+"md5": "cbcb8c969a00f9f5cc44bde7e5b1ab04",
+"xtrim": 112,
+"ytrim": 112,
+"wtrim": 1774,
+"htrim": 1780,
+"xdraw": 110,
+"ydraw": 110,
+"wdraw": 1778,
+"hdraw": 1784
 }
 ],
 "count": 1
@@ -13335,8 +13376,8 @@
 "index2": -1,
 "x": 2,
 "y": 2,
-"w": 836,
-"h": 838
+"w": 1774,
+"h": 1780
 }
 ],
 "packs": [
@@ -19844,7 +19885,11 @@
 {
 "object": {
 "bbox": true,
-"maxScale": -1
+"maxScale": -1,
+"width": 119,
+"height": 117,
+"x": 243,
+"y": 232
 },
 "anims": [
 {
@@ -19857,7 +19902,19 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"md5": "68c661e7ac2f4a10c7e7886fbec77c4d",
+"wtrim": 120,
+"htrim": 118,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 124,
+"hdraw": 122
+}
+],
+"count": 1
 },
 {
 "name": "FRONT"
@@ -19945,7 +20002,23 @@
 }
 ],
 "sid": 118,
-"uid": "O_REDDOT"
+"uid": "O_REDDOT",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 120,
+"h": 118
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
 }
 ],
 "players": [
@@ -19961,7 +20034,7 @@
 }
 ],
 "meta": {
-"nextAssetID": 119
+"nextAssetID": 121
 },
 "roles": [
 {
@@ -19970,8 +20043,8 @@
 "graph": {
 "board": {
 "nextid": 87,
-"x": 1006,
-"y": 303,
+"x": 916,
+"y": 153,
 "boxes": [
 {
 "type": 1287,
@@ -20223,7 +20296,7 @@
 "uid": "R_GOHOME",
 "graph": {
 "board": {
-"nextid": 85,
+"nextid": 112,
 "x": 674,
 "y": 459,
 "boxes": [
@@ -20272,9 +20345,9 @@
 "uid": "R_NAVIGATE",
 "graph": {
 "board": {
-"nextid": 298,
-"x": 658,
-"y": 369,
+"nextid": 669,
+"x": -538,
+"y": 462,
 "boxes": [
 {
 "type": 1287,
@@ -20470,6 +20543,124 @@
 ],
 "script": "jump S_RADIO\r\n",
 "plugCount": 1
+},
+{
+"type": 261,
+"id": 523,
+"x": 440,
+"y": -269,
+"plugs": [
+{
+"id": 524,
+"type": 3,
+"trgs": [
+526
+]
+}
+]
+},
+{
+"type": 1031,
+"id": 525,
+"x": 550,
+"y": -268,
+"plugs": [
+{
+"id": 526,
+"type": 2
+},
+{
+"id": 527,
+"type": 3,
+"trgs": [
+532
+]
+},
+{
+"id": 528,
+"type": 3
+},
+{
+"id": 529,
+"type": 3
+},
+{
+"id": 530,
+"type": 3
+}
+],
+"puzzle": "#Helper_message"
+},
+{
+"type": 513,
+"id": 531,
+"x": 731,
+"y": -266,
+"plugs": [
+{
+"id": 532,
+"type": 2
+},
+{
+"id": 533,
+"type": 3,
+"trgs": [
+652
+]
+}
+],
+"script": "hide O_REDDOT",
+"plugCount": 1
+},
+{
+"type": 1031,
+"id": 651,
+"x": 879,
+"y": -265,
+"plugs": [
+{
+"id": 652,
+"type": 2
+},
+{
+"id": 653,
+"type": 3,
+"trgs": [
+658
+]
+},
+{
+"id": 654,
+"type": 3
+},
+{
+"id": 655,
+"type": 3
+},
+{
+"id": 656,
+"type": 3
+}
+],
+"puzzle": "#listenradio"
+},
+{
+"type": 513,
+"id": 657,
+"x": 1006,
+"y": -255,
+"plugs": [
+{
+"id": 658,
+"type": 2
+},
+{
+"id": 659,
+"type": 3
+}
+],
+"script": "show O_REDDOT",
+"plugCount": 1
 }
 ]
 }
@@ -20480,9 +20671,9 @@
 "uid": "R_GOTOTEXTS",
 "graph": {
 "board": {
-"nextid": 502,
-"x": 843,
-"y": 532,
+"nextid": 855,
+"x": 216,
+"y": 493,
 "boxes": [
 {
 "type": 1285,
@@ -20673,6 +20864,124 @@
 ],
 "script": "jump S_COMRADETEXT\r\n\r\n",
 "plugCount": 1
+},
+{
+"type": 261,
+"id": 817,
+"x": -65,
+"y": -314,
+"plugs": [
+{
+"id": 818,
+"type": 3,
+"trgs": [
+820
+]
+}
+]
+},
+{
+"type": 1031,
+"id": 819,
+"x": 69,
+"y": -319,
+"plugs": [
+{
+"id": 820,
+"type": 2
+},
+{
+"id": 821,
+"type": 3,
+"trgs": [
+826
+]
+},
+{
+"id": 822,
+"type": 3
+},
+{
+"id": 823,
+"type": 3
+},
+{
+"id": 824,
+"type": 3
+}
+],
+"puzzle": "#Helper_message"
+},
+{
+"type": 513,
+"id": 825,
+"x": 240,
+"y": -316,
+"plugs": [
+{
+"id": 826,
+"type": 2
+},
+{
+"id": 827,
+"type": 3,
+"trgs": [
+838
+]
+}
+],
+"script": "hide O_REDDOT",
+"plugCount": 1
+},
+{
+"type": 1031,
+"id": 837,
+"x": 379,
+"y": -308,
+"plugs": [
+{
+"id": 838,
+"type": 2
+},
+{
+"id": 839,
+"type": 3,
+"trgs": [
+844
+]
+},
+{
+"id": 840,
+"type": 3
+},
+{
+"id": 841,
+"type": 3
+},
+{
+"id": 842,
+"type": 3
+}
+],
+"puzzle": "#listenradio"
+},
+{
+"type": 513,
+"id": 843,
+"x": 548,
+"y": -301,
+"plugs": [
+{
+"id": 844,
+"type": 2
+},
+{
+"id": 845,
+"type": 3
+}
+],
+"script": "show O_REDDOT",
+"plugCount": 1
 }
 ]
 }
@@ -20683,8 +20992,8 @@
 "uid": "R_TEXTS",
 "graph": {
 "board": {
-"nextid": 420,
-"x": 490,
+"nextid": 555,
+"x": 491,
 "y": 361,
 "boxes": [
 {
@@ -20906,7 +21215,7 @@
 "uid": "R_NOTES",
 "graph": {
 "board": {
-"nextid": 26,
+"nextid": 80,
 "x": 660,
 "y": 583,
 "boxes": [
@@ -20955,9 +21264,9 @@
 "uid": "R_GALERY",
 "graph": {
 "board": {
-"nextid": 303,
-"x": 553,
-"y": 561,
+"nextid": 489,
+"x": 592,
+"y": 566,
 "boxes": [
 {
 "type": 1287,
@@ -21136,7 +21445,7 @@
 "type": 513,
 "id": 151,
 "x": -92,
-"y": -148,
+"y": -147,
 "plugs": [
 {
 "id": 152,
@@ -21146,7 +21455,7 @@
 "id": 153,
 "type": 3,
 "trgs": [
-301
+349
 ]
 }
 ],
@@ -21174,8 +21483,8 @@
 {
 "type": 780,
 "id": 300,
-"x": 31,
-"y": -148,
+"x": 148,
+"y": -146,
 "plugs": [
 {
 "id": 301,
@@ -21187,6 +21496,38 @@
 }
 ],
 "puzzle": "#seenfmpic"
+},
+{
+"type": 1031,
+"id": 348,
+"x": 12,
+"y": -146,
+"plugs": [
+{
+"id": 349,
+"type": 2
+},
+{
+"id": 350,
+"type": 3,
+"trgs": [
+301
+]
+},
+{
+"id": 351,
+"type": 3
+},
+{
+"id": 352,
+"type": 3
+},
+{
+"id": 353,
+"type": 3
+}
+],
+"puzzle": "#Helper_message"
 }
 ]
 }
@@ -21197,7 +21538,7 @@
 "uid": "R_TEXTSBFF",
 "graph": {
 "board": {
-"nextid": 375,
+"nextid": 600,
 "x": 490,
 "y": 361,
 "boxes": [
@@ -21420,9 +21761,9 @@
 "uid": "R_TEXTSHELP",
 "graph": {
 "board": {
-"nextid": 375,
-"x": 490,
-"y": 361,
+"nextid": 704,
+"x": 505,
+"y": 290,
 "boxes": [
 {
 "type": 513,
@@ -21479,8 +21820,8 @@
 {
 "type": 513,
 "id": 170,
-"x": 336,
-"y": -8,
+"x": 306,
+"y": -100,
 "plugs": [
 {
 "id": 171,
@@ -21514,8 +21855,8 @@
 {
 "type": 1025,
 "id": 278,
-"x": 35,
-"y": -6,
+"x": 40,
+"y": -94,
 "plugs": [
 {
 "id": 279,
@@ -21538,8 +21879,8 @@
 {
 "type": 1025,
 "id": 282,
-"x": 41,
-"y": 119,
+"x": 43,
+"y": 148,
 "plugs": [
 {
 "id": 283,
@@ -21565,8 +21906,8 @@
 {
 "type": 513,
 "id": 286,
-"x": 206,
-"y": 111,
+"x": 200,
+"y": 145,
 "plugs": [
 {
 "id": 287,
@@ -21584,7 +21925,7 @@
 "type": 513,
 "id": 298,
 "x": 204,
-"y": 166,
+"y": 199,
 "plugs": [
 {
 "id": 299,
@@ -21608,7 +21949,8 @@
 "id": 317,
 "type": 3,
 "trgs": [
-319
+319,
+651
 ]
 }
 ],
@@ -21633,6 +21975,77 @@
 ],
 "script": "set clickedOnce false",
 "plugCount": 1
+},
+{
+"type": 781,
+"id": 467,
+"x": 129,
+"y": 400,
+"plugs": [
+{
+"id": 468,
+"type": 2
+},
+{
+"id": 469,
+"type": 3
+}
+],
+"lock": true,
+"dialog": "D_STARTHELP"
+},
+{
+"type": 1031,
+"id": 650,
+"x": -35,
+"y": 339,
+"plugs": [
+{
+"id": 651,
+"type": 2
+},
+{
+"id": 652,
+"type": 3,
+"trgs": [
+702
+]
+},
+{
+"id": 653,
+"type": 3
+},
+{
+"id": 654,
+"type": 3,
+"trgs": [
+468
+]
+},
+{
+"id": 655,
+"type": 3
+}
+],
+"puzzle": "#listenradio"
+},
+{
+"type": 781,
+"id": 701,
+"x": 129,
+"y": 340,
+"plugs": [
+{
+"id": 702,
+"type": 2
+},
+{
+"id": 703,
+"type": 3
+}
+],
+"lock": true,
+"dialog": "D_STOPNOW"
 }
 ]
 }
@@ -21643,7 +22056,7 @@
 "uid": "R_TEXTSCOMR",
 "graph": {
 "board": {
-"nextid": 375,
+"nextid": 555,
 "x": 490,
 "y": 361,
 "boxes": [
@@ -21866,9 +22279,9 @@
 "uid": "R_RADIO",
 "graph": {
 "board": {
-"nextid": 778,
-"x": 217,
-"y": 237,
+"nextid": 1210,
+"x": 339,
+"y": 223,
 "boxes": [
 {
 "type": 261,
@@ -22217,8 +22630,8 @@
 {
 "type": 1031,
 "id": 772,
-"x": 581,
-"y": -4,
+"x": 602,
+"y": -11,
 "plugs": [
 {
 "id": 773,
@@ -22257,6 +22670,137 @@
 "uid": "D_HOUR",
 "dialog": {
 "nextID": 2
+}
+},
+{
+"sid": 119,
+"uid": "D_STARTHELP",
+"dialog": {
+"sentence": {
+"sentences": [
+{
+"id": 3,
+"text": {
+"en": "Alors t'arrive à l'ouvrir ce tel ?"
+},
+"sentences": [
+{
+"id": 7,
+"choice": true,
+"text": {
+"en": "Oui"
+},
+"sentences": [
+{
+"id": 9,
+"sentences": [
+{
+"id": 15,
+"choice": true,
+"sentences": [
+{
+"id": 17,
+"text": {
+"en": "\"Mateo Lemercier : homme d'affire\tmort par suffocation a 12h48\"\r\n\"blessure mortelle au poumon gauche\"\r\n\"Coupable mr.x sdf\""
+},
+"speaker": "O_RECEIVERMEDIUM2",
+"script": "success #helper_message",
+"exit": true
+}
+],
+"text": {
+"en": "Au fait tu pourrais me redonner son rapport d'autopsie stp ?"
+},
+"locked": true,
+"doNotSay": true
+},
+{
+"id": 16,
+"choice": true,
+"text": {
+"en": "Je vais pas vendre une pièce à conviction débile... "
+},
+"locked": true,
+"script": "success #helper_message",
+"exit": true,
+"doNotSay": true
+}
+],
+"text": {
+"en": "Oh! joli T'es vraiment le meilleur de la brigade.\r\nTu comptes le revendre ? De toute façon il doit plus trop lui manquer..."
+},
+"speaker": "O_RECEIVERMEDIUM2"
+}
+],
+"doNotSay": true,
+"locked": true
+},
+{
+"id": 8,
+"choice": true,
+"sentences": [
+{
+"id": 11,
+"sentences": [
+{
+"id": 13,
+"choice": true,
+"sentences": [
+{
+"id": 19,
+"text": {
+"en": "\"Mateo Lemercier : homme d'affire\tmort par suffocation a 12h48\"\r\n\"blessure mortelle au poumon gauche\"\r\n\"Coupable mr.x sdf\""
+},
+"speaker": "O_RECEIVERMEDIUM2",
+"script": "success #helper_message",
+"exit": true
+}
+],
+"text": {
+"en": "Au fait tu pourrais me redonner son rapport d'autopsie stp ?"
+},
+"locked": true,
+"doNotSay": true
+},
+{
+"id": 14,
+"choice": true,
+"text": {
+"en": "Je vais pas vendre une pièce à conviction débile... "
+},
+"locked": true,
+"script": "success #helper_message",
+"exit": true,
+"doNotSay": true
+}
+],
+"text": {
+"en": "Haha T'es vraiment le meilleur de la brigade.\r\nTu comptes le revendre ? De toute façon il doit plus trop lui manquer..."
+},
+"speaker": "O_RECEIVERMEDIUM2"
+}
+],
+"text": {
+"en": "Non"
+},
+"doNotSay": true,
+"locked": true
+}
+],
+"speaker": "O_SENDERMEDIUM2",
+"dir": "RIGHT",
+"mutualShow": "4"
+}
+]
+},
+"nextID": 20
+}
+},
+{
+"sid": 120,
+"uid": "D_STOPNOW",
+"dialog": {
+"nextID": 1
 }
 }
 ]
