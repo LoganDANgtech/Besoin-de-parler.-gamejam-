@@ -125,8 +125,8 @@
 },
 "scenario": {
 "board": {
-"nextid": 62,
-"x": -645,
+"nextid": 71,
+"x": -589,
 "sections": [
 {
 "width": 264
@@ -164,8 +164,8 @@
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 1856,
-"y": 160,
+"x": 2160,
+"y": 200,
 "plugs": [
 {
 "id": 4,
@@ -328,7 +328,7 @@
 "id": 49,
 "type": 3,
 "trgs": [
-57
+66
 ]
 }
 ],
@@ -338,8 +338,8 @@
 "type": 262,
 "id": 50,
 "name": "#homescreen",
-"x": 1696,
-"y": 160,
+"x": 2000,
+"y": 200,
 "plugs": [
 {
 "id": 51,
@@ -358,8 +358,8 @@
 "type": 256,
 "id": 56,
 "name": "#seenfmpic",
-"x": 1376,
-"y": 112,
+"x": 1576,
+"y": 160,
 "plugs": [
 {
 "id": 57,
@@ -378,8 +378,8 @@
 "type": 256,
 "id": 59,
 "name": "#listenradio",
-"x": 1504,
-"y": 112,
+"x": 1704,
+"y": 160,
 "plugs": [
 {
 "id": 60,
@@ -389,7 +389,48 @@
 "id": 61,
 "type": 3,
 "trgs": [
+63
+]
+}
+],
+"exit": "stop_song -1\r\nunlock\r\nunlock_use"
+},
+{
+"type": 256,
+"id": 62,
+"name": "#denonciation",
+"x": 1840,
+"y": 176,
+"plugs": [
+{
+"id": 63,
+"type": 2
+},
+{
+"id": 64,
+"type": 3,
+"trgs": [
 51
+]
+}
+]
+},
+{
+"type": 256,
+"id": 65,
+"name": "#Helper_message",
+"x": 1360,
+"y": 152,
+"plugs": [
+{
+"id": 66,
+"type": 2
+},
+{
+"id": 67,
+"type": 3,
+"trgs": [
+57
 ]
 }
 ]
@@ -9412,7 +9453,7 @@
 "width": 600,
 "height": 285,
 "text": {
-"en": "Là j'avouerais que je ne sais plus trop ce que je fais j'ai besoin d'aide"
+"en": "Là j'avouerais que je ne sais plus trop ce que je fais j'ai besoin de parler"
 }
 }
 ],
@@ -9505,6 +9546,7 @@
 "",
 ""
 ],
+"visible": 1,
 "x": -1,
 "y": -1,
 "parallax": 100,
@@ -9542,6 +9584,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -9577,6 +9620,7 @@
 "",
 ""
 ],
+"visible": 1,
 "x": 1222,
 "parallax": 100,
 "lightAmbient": 255,
@@ -9613,6 +9657,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 11,
 "y": -616,
@@ -9651,6 +9696,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 5,
 "y": -311,
@@ -9689,6 +9735,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 304,
 "y": -614,
@@ -9727,6 +9774,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 305,
 "y": -311,
@@ -9765,6 +9813,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 7,
 "y": -927,
@@ -9803,6 +9852,7 @@
 "",
 ""
 ],
+"visible": 1,
 "x": 615,
 "y": 612,
 "parallax": 100,
@@ -9840,6 +9890,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 304,
 "y": -928,
@@ -9878,6 +9929,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 304,
 "y": 3,
@@ -9927,6 +9979,7 @@
 "",
 ""
 ],
+"visible": 1,
 "x": 890,
 "y": 958,
 "parallax": 100,
@@ -9976,6 +10029,7 @@
 "",
 ""
 ],
+"visible": 1,
 "x": 600,
 "y": 912,
 "parallax": 100,
@@ -10014,6 +10068,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 8,
 "y": -1224,
@@ -10052,6 +10107,7 @@
 "",
 ""
 ],
+"visible": 1,
 "parent": "O_PIC5",
 "x": 305,
 "y": -1226,
@@ -10155,7 +10211,7 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 40,
+"zoom": 45,
 "nextID": 8,
 "x": -148,
 "y": -71,
@@ -19784,6 +19840,112 @@
 }
 ]
 }
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 118,
+"uid": "O_REDDOT"
 }
 ],
 "players": [
@@ -19799,7 +19961,7 @@
 }
 ],
 "meta": {
-"nextAssetID": 117
+"nextAssetID": 119
 },
 "roles": [
 {
@@ -20061,7 +20223,7 @@
 "uid": "R_GOHOME",
 "graph": {
 "board": {
-"nextid": 76,
+"nextid": 85,
 "x": 674,
 "y": 459,
 "boxes": [
@@ -20318,7 +20480,7 @@
 "uid": "R_GOTOTEXTS",
 "graph": {
 "board": {
-"nextid": 457,
+"nextid": 502,
 "x": 843,
 "y": 532,
 "boxes": [
@@ -20793,9 +20955,9 @@
 "uid": "R_GALERY",
 "graph": {
 "board": {
-"nextid": 255,
-"x": 448,
-"y": 450,
+"nextid": 303,
+"x": 553,
+"y": 561,
 "boxes": [
 {
 "type": 1287,
@@ -20982,10 +21144,13 @@
 },
 {
 "id": 153,
-"type": 3
+"type": 3,
+"trgs": [
+301
+]
 }
 ],
-"script": "set clickedOnce false",
+"script": "set clickedOnce false\r\n",
 "plugCount": 1
 },
 {
@@ -21005,6 +21170,23 @@
 "varCmp": "==",
 "scene": "S_GALERY",
 "mode": "JUMP"
+},
+{
+"type": 780,
+"id": 300,
+"x": 31,
+"y": -148,
+"plugs": [
+{
+"id": 301,
+"type": 2
+},
+{
+"id": 302,
+"type": 3
+}
+],
+"puzzle": "#seenfmpic"
 }
 ]
 }
@@ -21684,9 +21866,9 @@
 "uid": "R_RADIO",
 "graph": {
 "board": {
-"nextid": 670,
-"x": 327,
-"y": 240,
+"nextid": 778,
+"x": 217,
+"y": 237,
 "boxes": [
 {
 "type": 261,
@@ -21721,7 +21903,7 @@
 ]
 }
 ],
-"script": "cursor mx my\r\npos_in_pixels O_SCROLLWHEEL ox oy\r\nif greater $mx 1150\r\n\tset mx 1150\r\nelse_if less $mx 650\r\n\tset mx 650\r\nend\r\nset freq $mx\r\nsub freq 650\r\nfdiv freq 5\r\nif equal freq 92.4\r\n\tset there true\r\nend\r\nif equal freq 92.6\r\n\tset there true\r\nend \r\ncat freq \"FM\"\r\nreplace_label_text S_RADIO FREQUENCY $freq\r\nmove_in_pixels O_SCROLLWHEEL $mx $oy",
+"script": "cursor mx my\r\npos_in_pixels O_SCROLLWHEEL ox oy\r\nset there false\r\nif greater $mx 1150\r\n\tset mx 1150\r\nelse_if less $mx 650\r\n\tset mx 650\r\nend\r\nset freq $mx\r\nsub freq 650\r\nfdiv freq 5\r\nif greater freq 92\r\n\tset there true\r\nend\r\nif less freq 93\r\n\tset there true\r\nend \r\ncat freq \"FM\"\r\nreplace_label_text S_RADIO FREQUENCY $freq\r\nmove_in_pixels O_SCROLLWHEEL $mx $oy",
 "plugCount": 1
 },
 {
@@ -21901,28 +22083,10 @@
 "button": "MAIN"
 },
 {
-"type": 513,
-"id": 654,
-"x": 484,
-"y": -9,
-"plugs": [
-{
-"id": 655,
-"type": 2
-},
-{
-"id": 656,
-"type": 3
-}
-],
-"script": "play_song",
-"plugCount": 1
-},
-{
 "type": 1025,
 "id": 666,
-"x": 359,
-"y": -7,
+"x": 324,
+"y": -8,
 "plugs": [
 {
 "id": 667,
@@ -21932,7 +22096,7 @@
 "id": 668,
 "type": 3,
 "trgs": [
-655
+671
 ]
 },
 {
@@ -21941,6 +22105,146 @@
 }
 ],
 "variable": "there"
+},
+{
+"type": 1031,
+"id": 670,
+"x": 452,
+"y": -7,
+"plugs": [
+{
+"id": 671,
+"type": 2
+},
+{
+"id": 672,
+"type": 3,
+"trgs": [
+773
+]
+},
+{
+"id": 673,
+"type": 3
+},
+{
+"id": 674,
+"type": 3
+},
+{
+"id": 675,
+"type": 3
+}
+],
+"puzzle": "#seenfmpic"
+},
+{
+"type": 780,
+"id": 730,
+"x": 900,
+"y": 155,
+"plugs": [
+{
+"id": 731,
+"type": 2
+},
+{
+"id": 732,
+"type": 3
+}
+],
+"puzzle": "#listenradio"
+},
+{
+"type": 1288,
+"id": 733,
+"x": 588,
+"y": 138,
+"plugs": [
+{
+"id": 734,
+"type": 3,
+"trgs": [
+764
+]
+}
+],
+"varCmp": "==",
+"song": "rajio"
+},
+{
+"type": 513,
+"id": 747,
+"x": 752,
+"y": 40,
+"plugs": [
+{
+"id": 748,
+"type": 2
+},
+{
+"id": 749,
+"type": 3
+}
+],
+"script": "set freq 92.5FM\r\nplay_song \"rajio\" 150 1\r\nlock\r\nlock_use\r\n",
+"plugCount": 1
+},
+{
+"type": 785,
+"id": 763,
+"x": 742,
+"y": 142,
+"plugs": [
+{
+"id": 764,
+"type": 2
+},
+{
+"id": 765,
+"type": 3,
+"trgs": [
+731
+]
+}
+],
+"camera": "False",
+"dialog": "False",
+"timeline": "False",
+"cinematic": "False",
+"song": "-1"
+},
+{
+"type": 1031,
+"id": 772,
+"x": 581,
+"y": -4,
+"plugs": [
+{
+"id": 773,
+"type": 2
+},
+{
+"id": 774,
+"type": 3
+},
+{
+"id": 775,
+"type": 3
+},
+{
+"id": 776,
+"type": 3,
+"trgs": [
+748
+]
+},
+{
+"id": 777,
+"type": 3
+}
+],
+"puzzle": "#listenradio"
 }
 ]
 }
