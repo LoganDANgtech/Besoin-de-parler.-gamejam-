@@ -125,8 +125,8 @@
 },
 "scenario": {
 "board": {
-"nextid": 56,
-"x": -372,
+"nextid": 62,
+"x": -645,
 "sections": [
 {
 "width": 264
@@ -164,7 +164,7 @@
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 1720,
+"x": 1856,
 "y": 160,
 "plugs": [
 {
@@ -328,7 +328,7 @@
 "id": 49,
 "type": 3,
 "trgs": [
-54
+57
 ]
 }
 ],
@@ -338,7 +338,7 @@
 "type": 262,
 "id": 50,
 "name": "#homescreen",
-"x": 1560,
+"x": 1696,
 "y": 160,
 "plugs": [
 {
@@ -356,17 +356,37 @@
 },
 {
 "type": 256,
-"id": 53,
-"name": "#enigmes",
-"x": 1392,
-"y": 160,
+"id": 56,
+"name": "#seenfmpic",
+"x": 1376,
+"y": 112,
 "plugs": [
 {
-"id": 54,
+"id": 57,
 "type": 2
 },
 {
-"id": 55,
+"id": 58,
+"type": 3,
+"trgs": [
+60
+]
+}
+]
+},
+{
+"type": 256,
+"id": 59,
+"name": "#listenradio",
+"x": 1504,
+"y": 112,
+"plugs": [
+{
+"id": 60,
+"type": 2
+},
+{
+"id": 61,
 "type": 3,
 "trgs": [
 51
@@ -3135,7 +3155,7 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 40,
+"zoom": 30,
 "nextID": 11,
 "x": -255,
 "y": -60,
@@ -4861,15 +4881,528 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 10,
-"nextID": 18,
-"x": -258,
-"y": -152
+"zoom": 30,
+"nextID": 35,
+"x": -289,
+"y": -138,
+"role": "R_TEXTSBFF"
 },
 "objects": [
 {
+"uid": "O_RECEIVERMEDIUM2",
+"id": 18,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 594,
+"y": 753,
+"parallax": 100,
+"blend": "Default",
+"placement": "BACK",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{
+"cells": [
+{
+"col": 36,
+"row": 82
+},
+{
+"col": 36,
+"row": 87
+},
+{
+"col": 36,
+"row": 57
+},
+{
+"col": 36,
+"row": 86
+},
+{
+"col": 36,
+"row": 89
+},
+{
+"col": 36,
+"row": 88
+},
+{
+"col": 36,
+"row": 81
+},
+{
+"col": 36,
+"row": 59
+},
+{
+"col": 36,
+"row": 60
+},
+{
+"col": 36,
+"row": 106
+},
+{
+"name": "CELLEND",
+"col": 36,
+"row": 110
+},
+{
+"col": 36,
+"row": 56
+},
+{
+"col": 36,
+"row": 105
+},
+{
+"col": 36,
+"row": 101
+},
+{
+"col": 36,
+"row": 58
+},
+{
+"name": "CELLBEGIN",
+"col": 36,
+"row": 46
+},
+{
+"col": 36,
+"row": 61
+},
+{
+"col": 36,
+"row": 47
+},
+{
+"col": 36,
+"row": 90
+},
+{
+"col": 36,
+"row": 84
+},
+{
+"col": 36,
+"row": 91
+},
+{
+"col": 36,
+"row": 73
+},
+{
+"col": 36,
+"row": 69
+},
+{
+"col": 36,
+"row": 70
+},
+{
+"col": 36,
+"row": 72
+},
+{
+"col": 36,
+"row": 71
+},
+{
+"col": 36,
+"row": 52
+},
+{
+"col": 36,
+"row": 97
+},
+{
+"col": 36,
+"row": 68
+},
+{
+"col": 36,
+"row": 66
+},
+{
+"col": 36,
+"row": 95
+},
+{
+"col": 36,
+"row": 63
+},
+{
+"col": 36,
+"row": 55
+},
+{
+"col": 36,
+"row": 65
+},
+{
+"col": 36,
+"row": 53
+},
+{
+"col": 36,
+"row": 49
+},
+{
+"col": 36,
+"row": 64
+},
+{
+"col": 36,
+"row": 62
+},
+{
+"col": 36,
+"row": 67
+},
+{
+"col": 36,
+"row": 50
+},
+{
+"col": 36,
+"row": 54
+},
+{
+"col": 36,
+"row": 51
+},
+{
+"col": 36,
+"row": 48
+},
+{
+"col": 36,
+"row": 83
+},
+{
+"col": 36,
+"row": 108
+},
+{
+"col": 36,
+"row": 103
+},
+{
+"col": 36,
+"row": 104
+},
+{
+"col": 36,
+"row": 94
+},
+{
+"col": 36,
+"row": 109
+},
+{
+"col": 36,
+"row": 76
+},
+{
+"col": 36,
+"row": 92
+},
+{
+"col": 36,
+"row": 99
+},
+{
+"col": 36,
+"row": 98
+},
+{
+"col": 36,
+"row": 93
+},
+{
+"col": 36,
+"row": 85
+},
+{
+"col": 36,
+"row": 80
+},
+{
+"col": 36,
+"row": 75
+},
+{
+"col": 36,
+"row": 77
+},
+{
+"col": 36,
+"row": 100
+},
+{
+"col": 36,
+"row": 96
+},
+{
+"col": 36,
+"row": 74
+},
+{
+"col": 36,
+"row": 102
+},
+{
+"col": 36,
+"row": 78
+},
+{
+"col": 36,
+"row": 79
+},
+{
+"col": 36,
+"row": 107
+}
+]
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERSMALL1",
+"id": 19,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 257,
+"y": -1104,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_RECEIVERSMALL",
+"id": 20,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 9,
+"y": -418,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_RECEIVERXSMALL",
+"id": 22,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": -10,
+"y": -1223,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_RECEIVERMEDIUM1",
+"id": 24,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": -9,
+"y": -991,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
 "uid": "O_RETURNBTN",
-"id": 3,
+"id": 25,
 "tags": [
 "",
 "",
@@ -4880,6 +5413,7 @@
 "x": 607,
 "y": 920,
 "parallax": 100,
+"placement": "HUD A",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -4917,16 +5451,17 @@
 ]
 },
 {
-"uid": "O_LIMIT",
-"id": 6,
+"uid": "O_RECEIVERSMALL1",
+"id": 26,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": 601,
-"y": 918,
+"parent": "O_RECEIVERMEDIUM2",
+"x": 17,
+"y": -736,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -4951,20 +5486,179 @@
 {},
 {},
 {}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
 ]
 },
 {
-"uid": "O_HERO",
-"id": 11,
+"uid": "O_SENDERMEDIUM2",
+"id": 27,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": -1,
-"y": -1,
+"parent": "O_RECEIVERMEDIUM2",
+"x": 261,
+"y": -599,
 "parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERBIG1",
+"id": 28,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"parent": "O_RECEIVERMEDIUM2",
+"x": 259,
+"y": -222,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_BAND1",
+"id": 31,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 1222,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+]
+},
+{
+"uid": "O_LIMIT",
+"id": 32,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 601,
+"y": 918,
+"parallax": 100,
+"placement": "HUD B",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -4992,7 +5686,7 @@
 },
 {
 "uid": "O_BAND",
-"id": 16,
+"id": 33,
 "tags": [
 "",
 "",
@@ -5001,7 +5695,6 @@
 ],
 "visible": 1,
 "parallax": 100,
-"ideLocked": true,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -5039,17 +5732,16 @@
 ]
 },
 {
-"uid": "O_BAND1",
-"id": 17,
+"uid": "O_HERO",
+"id": 34,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"visible": 1,
-"x": 1222,
-"y": 3,
+"x": 910,
+"y": 512,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -5075,6 +5767,72 @@
 {},
 {}
 ]
+}
+],
+"labels": [
+{
+"name": "DATESEP",
+"id": 21,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 12,
+"y": -306,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- hier -----"
+},
+"placement": "BACK",
+"size": 30,
+"color": "Silver"
+},
+{
+"name": "DATESEP",
+"id": 29,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 9,
+"y": -826,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- 27/03 -----"
+},
+"placement": "BACK",
+"size": 30,
+"color": "Silver"
+},
+{
+"name": "DATESEP",
+"id": 30,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 7,
+"y": -1319,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- 25/03 -----"
+},
+"placement": "BACK",
+"hud": true,
+"size": 30,
+"color": "Silver"
 }
 ],
 "sid": 67,
@@ -6187,15 +6945,565 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 20,
-"nextID": 19,
-"x": -377,
-"y": -201
+"zoom": 15,
+"nextID": 35,
+"x": -442,
+"y": -309,
+"role": "R_TEXTSHELP"
 },
 "objects": [
 {
+"uid": "O_RECEIVERMEDIUM2",
+"id": 19,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 594,
+"y": 753,
+"parallax": 100,
+"blend": "Default",
+"placement": "BACK",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{
+"cells": [
+{
+"col": 36,
+"row": 82
+},
+{
+"col": 36,
+"row": 87
+},
+{
+"col": 36,
+"row": 57
+},
+{
+"col": 36,
+"row": 86
+},
+{
+"col": 36,
+"row": 89
+},
+{
+"col": 36,
+"row": 88
+},
+{
+"col": 36,
+"row": 81
+},
+{
+"col": 36,
+"row": 59
+},
+{
+"col": 36,
+"row": 60
+},
+{
+"col": 36,
+"row": 106
+},
+{
+"name": "CELLEND",
+"col": 36,
+"row": 110
+},
+{
+"col": 36,
+"row": 56
+},
+{
+"col": 36,
+"row": 105
+},
+{
+"col": 36,
+"row": 101
+},
+{
+"col": 36,
+"row": 58
+},
+{
+"name": "CELLBEGIN",
+"col": 36,
+"row": 46
+},
+{
+"col": 36,
+"row": 61
+},
+{
+"col": 36,
+"row": 47
+},
+{
+"col": 36,
+"row": 90
+},
+{
+"col": 36,
+"row": 84
+},
+{
+"col": 36,
+"row": 91
+},
+{
+"col": 36,
+"row": 73
+},
+{
+"col": 36,
+"row": 69
+},
+{
+"col": 36,
+"row": 70
+},
+{
+"col": 36,
+"row": 72
+},
+{
+"col": 36,
+"row": 71
+},
+{
+"col": 36,
+"row": 52
+},
+{
+"col": 36,
+"row": 97
+},
+{
+"col": 36,
+"row": 68
+},
+{
+"col": 36,
+"row": 66
+},
+{
+"col": 36,
+"row": 95
+},
+{
+"col": 36,
+"row": 63
+},
+{
+"col": 36,
+"row": 55
+},
+{
+"col": 36,
+"row": 65
+},
+{
+"col": 36,
+"row": 53
+},
+{
+"col": 36,
+"row": 49
+},
+{
+"col": 36,
+"row": 64
+},
+{
+"col": 36,
+"row": 62
+},
+{
+"col": 36,
+"row": 67
+},
+{
+"col": 36,
+"row": 50
+},
+{
+"col": 36,
+"row": 54
+},
+{
+"col": 36,
+"row": 51
+},
+{
+"col": 36,
+"row": 48
+},
+{
+"col": 36,
+"row": 83
+},
+{
+"col": 36,
+"row": 108
+},
+{
+"col": 36,
+"row": 103
+},
+{
+"col": 36,
+"row": 104
+},
+{
+"col": 36,
+"row": 94
+},
+{
+"col": 36,
+"row": 109
+},
+{
+"col": 36,
+"row": 76
+},
+{
+"col": 36,
+"row": 92
+},
+{
+"col": 36,
+"row": 99
+},
+{
+"col": 36,
+"row": 98
+},
+{
+"col": 36,
+"row": 93
+},
+{
+"col": 36,
+"row": 85
+},
+{
+"col": 36,
+"row": 80
+},
+{
+"col": 36,
+"row": 75
+},
+{
+"col": 36,
+"row": 77
+},
+{
+"col": 36,
+"row": 100
+},
+{
+"col": 36,
+"row": 96
+},
+{
+"col": 36,
+"row": 74
+},
+{
+"col": 36,
+"row": 102
+},
+{
+"col": 36,
+"row": 78
+},
+{
+"col": 36,
+"row": 79
+},
+{
+"col": 36,
+"row": 107
+}
+]
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERSMALL1",
+"id": 20,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 257,
+"y": -1104,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_RECEIVERSMALL",
+"id": 21,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 9,
+"y": -418,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_RECEIVERXSMALL",
+"id": 23,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": -10,
+"y": -1223,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_HERO",
+"id": 24,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1304,
+"y": 154,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_RECEIVERMEDIUM1",
+"id": 25,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": -9,
+"y": -991,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
 "uid": "O_RETURNBTN",
-"id": 3,
+"id": 26,
 "tags": [
 "",
 "",
@@ -6206,6 +7514,7 @@
 "x": 607,
 "y": 920,
 "parallax": 100,
+"placement": "HUD A",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -6243,8 +7552,193 @@
 ]
 },
 {
+"uid": "O_RECEIVERSMALL1",
+"id": 27,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 17,
+"y": -736,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERMEDIUM2",
+"id": 28,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 261,
+"y": -599,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERBIG1",
+"id": 29,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"parent": "O_RECEIVERMEDIUM2",
+"x": 259,
+"y": -222,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_BAND1",
+"id": 32,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 1222,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
 "uid": "O_LIMIT",
-"id": 6,
+"id": 33,
 "tags": [
 "",
 "",
@@ -6254,6 +7748,7 @@
 "x": 601,
 "y": 918,
 "parallax": 100,
+"placement": "HUD B",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -6281,7 +7776,7 @@
 },
 {
 "uid": "O_BAND",
-"id": 16,
+"id": 34,
 "tags": [
 "",
 "",
@@ -6325,81 +7820,72 @@
 "b": 100
 }
 ]
-},
+}
+],
+"labels": [
 {
-"uid": "O_BAND1",
-"id": 17,
+"name": "DATESEP",
+"id": 22,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"visible": 1,
-"x": 1222,
-"y": 3,
-"parallax": 100,
-"lightAmbient": 255,
-"lightDiffuse": 16777215,
-"lightAngle": 30,
-"lightDist": -1,
-"grids": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-],
-"paths": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-]
+"parent": "O_RECEIVERMEDIUM2",
+"x": 12,
+"y": -306,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- hier -----"
+},
+"placement": "BACK",
+"size": 30,
+"color": "Silver"
 },
 {
-"uid": "O_HERO",
-"id": 18,
+"name": "DATESEP",
+"id": 30,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": 910,
-"y": 512,
-"parallax": 100,
-"lightAmbient": 255,
-"lightDiffuse": 16777215,
-"lightAngle": 30,
-"lightDist": -1,
-"grids": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
+"parent": "O_RECEIVERMEDIUM2",
+"x": 9,
+"y": -826,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- 27/03 -----"
+},
+"placement": "BACK",
+"size": 30,
+"color": "Silver"
+},
+{
+"name": "DATESEP",
+"id": 31,
+"tags": [
+"",
+"",
+"",
+""
 ],
-"paths": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-]
+"parent": "O_RECEIVERMEDIUM2",
+"x": 7,
+"y": -1319,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- 25/03 -----"
+},
+"placement": "BACK",
+"hud": true,
+"size": 30,
+"color": "Silver"
 }
 ],
 "sid": 69,
@@ -6476,14 +7962,564 @@
 }
 },
 "zoom": 15,
-"nextID": 18,
+"nextID": 34,
 "x": -445,
-"y": -231
+"y": -231,
+"role": "R_TEXTSCOMR"
 },
 "objects": [
 {
+"uid": "O_RECEIVERMEDIUM2",
+"id": 18,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 594,
+"y": 753,
+"parallax": 100,
+"blend": "Default",
+"placement": "BACK",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{
+"cells": [
+{
+"col": 36,
+"row": 82
+},
+{
+"col": 36,
+"row": 87
+},
+{
+"col": 36,
+"row": 57
+},
+{
+"col": 36,
+"row": 86
+},
+{
+"col": 36,
+"row": 89
+},
+{
+"col": 36,
+"row": 88
+},
+{
+"col": 36,
+"row": 81
+},
+{
+"col": 36,
+"row": 59
+},
+{
+"col": 36,
+"row": 60
+},
+{
+"col": 36,
+"row": 106
+},
+{
+"name": "CELLEND",
+"col": 36,
+"row": 110
+},
+{
+"col": 36,
+"row": 56
+},
+{
+"col": 36,
+"row": 105
+},
+{
+"col": 36,
+"row": 101
+},
+{
+"col": 36,
+"row": 58
+},
+{
+"name": "CELLBEGIN",
+"col": 36,
+"row": 46
+},
+{
+"col": 36,
+"row": 61
+},
+{
+"col": 36,
+"row": 47
+},
+{
+"col": 36,
+"row": 90
+},
+{
+"col": 36,
+"row": 84
+},
+{
+"col": 36,
+"row": 91
+},
+{
+"col": 36,
+"row": 73
+},
+{
+"col": 36,
+"row": 69
+},
+{
+"col": 36,
+"row": 70
+},
+{
+"col": 36,
+"row": 72
+},
+{
+"col": 36,
+"row": 71
+},
+{
+"col": 36,
+"row": 52
+},
+{
+"col": 36,
+"row": 97
+},
+{
+"col": 36,
+"row": 68
+},
+{
+"col": 36,
+"row": 66
+},
+{
+"col": 36,
+"row": 95
+},
+{
+"col": 36,
+"row": 63
+},
+{
+"col": 36,
+"row": 55
+},
+{
+"col": 36,
+"row": 65
+},
+{
+"col": 36,
+"row": 53
+},
+{
+"col": 36,
+"row": 49
+},
+{
+"col": 36,
+"row": 64
+},
+{
+"col": 36,
+"row": 62
+},
+{
+"col": 36,
+"row": 67
+},
+{
+"col": 36,
+"row": 50
+},
+{
+"col": 36,
+"row": 54
+},
+{
+"col": 36,
+"row": 51
+},
+{
+"col": 36,
+"row": 48
+},
+{
+"col": 36,
+"row": 83
+},
+{
+"col": 36,
+"row": 108
+},
+{
+"col": 36,
+"row": 103
+},
+{
+"col": 36,
+"row": 104
+},
+{
+"col": 36,
+"row": 94
+},
+{
+"col": 36,
+"row": 109
+},
+{
+"col": 36,
+"row": 76
+},
+{
+"col": 36,
+"row": 92
+},
+{
+"col": 36,
+"row": 99
+},
+{
+"col": 36,
+"row": 98
+},
+{
+"col": 36,
+"row": 93
+},
+{
+"col": 36,
+"row": 85
+},
+{
+"col": 36,
+"row": 80
+},
+{
+"col": 36,
+"row": 75
+},
+{
+"col": 36,
+"row": 77
+},
+{
+"col": 36,
+"row": 100
+},
+{
+"col": 36,
+"row": 96
+},
+{
+"col": 36,
+"row": 74
+},
+{
+"col": 36,
+"row": 102
+},
+{
+"col": 36,
+"row": 78
+},
+{
+"col": 36,
+"row": 79
+},
+{
+"col": 36,
+"row": 107
+}
+]
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERSMALL1",
+"id": 19,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 257,
+"y": -1104,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_RECEIVERSMALL",
+"id": 20,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 9,
+"y": -418,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_RECEIVERXSMALL",
+"id": 22,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": -10,
+"y": -1223,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_HERO",
+"id": 23,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1304,
+"y": 154,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_RECEIVERMEDIUM1",
+"id": 24,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": -9,
+"y": -991,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
 "uid": "O_RETURNBTN",
-"id": 3,
+"id": 25,
 "tags": [
 "",
 "",
@@ -6494,6 +8530,7 @@
 "x": 607,
 "y": 920,
 "parallax": 100,
+"placement": "HUD A",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -6531,16 +8568,164 @@
 ]
 },
 {
-"uid": "O_LIMIT",
-"id": 6,
+"uid": "O_RECEIVERSMALL1",
+"id": 26,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": 601,
-"y": 918,
+"parent": "O_RECEIVERMEDIUM2",
+"x": 17,
+"y": -736,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERMEDIUM2",
+"id": 27,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 261,
+"y": -599,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_SENDERBIG1",
+"id": 28,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"parent": "O_RECEIVERMEDIUM2",
+"x": 259,
+"y": -222,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 200,
+"b": 100
+},
+{
+"y": 1024,
+"a": 200,
+"b": 100
+}
+]
+},
+{
+"uid": "O_BAND1",
+"id": 31,
+"tags": [
+"",
+"",
+"",
+""
+],
+"visible": 1,
+"x": 1222,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -6568,17 +8753,18 @@
 ]
 },
 {
-"uid": "O_HERO",
-"id": 11,
+"uid": "O_LIMIT",
+"id": 32,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": -1,
-"y": -1,
+"x": 601,
+"y": 918,
 "parallax": 100,
+"placement": "HUD B",
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
 "lightAngle": 30,
@@ -6606,7 +8792,7 @@
 },
 {
 "uid": "O_BAND",
-"id": 16,
+"id": 33,
 "tags": [
 "",
 "",
@@ -6650,44 +8836,72 @@
 "b": 100
 }
 ]
-},
+}
+],
+"labels": [
 {
-"uid": "O_BAND1",
-"id": 17,
+"name": "DATESEP",
+"id": 21,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"visible": 1,
-"x": 1222,
-"y": 3,
-"parallax": 100,
-"lightAmbient": 255,
-"lightDiffuse": 16777215,
-"lightAngle": 30,
-"lightDist": -1,
-"grids": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
+"parent": "O_RECEIVERMEDIUM2",
+"x": 12,
+"y": -306,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- hier -----"
+},
+"placement": "BACK",
+"size": 30,
+"color": "Silver"
+},
+{
+"name": "DATESEP",
+"id": 29,
+"tags": [
+"",
+"",
+"",
+""
 ],
-"paths": [
-{},
-{},
-{},
-{},
-{},
-{},
-{},
-{}
-]
+"parent": "O_RECEIVERMEDIUM2",
+"x": 9,
+"y": -826,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- 27/03 -----"
+},
+"placement": "BACK",
+"size": 30,
+"color": "Silver"
+},
+{
+"name": "DATESEP",
+"id": 30,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_RECEIVERMEDIUM2",
+"x": 7,
+"y": -1319,
+"width": 624,
+"height": 100,
+"text": {
+"en": "----- 25/03 -----"
+},
+"placement": "BACK",
+"hud": true,
+"size": 30,
+"color": "Silver"
 }
 ],
 "sid": 88,
@@ -6763,7 +8977,7 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 50,
+"zoom": 40,
 "nextID": 13,
 "x": -95,
 "y": -5,
@@ -7275,10 +9489,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 30,
-"nextID": 13,
-"x": -203,
-"y": -196,
+"zoom": 25,
+"nextID": 16,
+"x": -209,
+"y": -182,
 "role": "R_GALERY"
 },
 "objects": [
@@ -7399,8 +9613,9 @@
 "",
 ""
 ],
-"x": 616,
-"y": 17,
+"parent": "O_PIC5",
+"x": 11,
+"y": -616,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7436,8 +9651,9 @@
 "",
 ""
 ],
-"x": 616,
-"y": 323,
+"parent": "O_PIC5",
+"x": 5,
+"y": -311,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7473,8 +9689,9 @@
 "",
 ""
 ],
-"x": 930,
-"y": 17,
+"parent": "O_PIC5",
+"x": 304,
+"y": -614,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7510,8 +9727,9 @@
 "",
 ""
 ],
-"x": 930,
-"y": 323,
+"parent": "O_PIC5",
+"x": 305,
+"y": -311,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7547,8 +9765,9 @@
 "",
 ""
 ],
-"x": 613,
-"y": -301,
+"parent": "O_PIC5",
+"x": 7,
+"y": -927,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7584,8 +9803,8 @@
 "",
 ""
 ],
-"x": 616,
-"y": 629,
+"x": 615,
+"y": 612,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7621,8 +9840,9 @@
 "",
 ""
 ],
-"x": 924,
-"y": -305,
+"parent": "O_PIC5",
+"x": 304,
+"y": -928,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7658,8 +9878,9 @@
 "",
 ""
 ],
-"x": 930,
-"y": 629,
+"parent": "O_PIC5",
+"x": 304,
+"y": 3,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7708,6 +9929,132 @@
 ],
 "x": 890,
 "y": 958,
+"parallax": 100,
+"placement": "HUD A",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_LIMIT",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 13,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 600,
+"y": 912,
+"parallax": 100,
+"placement": "HUD B",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_PIC8",
+"id": 14,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_PIC5",
+"x": 8,
+"y": -1224,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_PIC9",
+"id": 15,
+"tags": [
+"",
+"",
+"",
+""
+],
+"parent": "O_PIC5",
+"x": 305,
+"y": -1226,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -7809,24 +10156,14 @@
 }
 },
 "zoom": 40,
-"nextID": 3,
-"x": -169,
-"y": -79
+"nextID": 8,
+"x": -148,
+"y": -71,
+"role": "R_RADIO"
 },
 "objects": [
 {
 "uid": "O_BAND",
-"depths": [
-{
-"a": 100,
-"b": 100
-},
-{
-"y": 1024,
-"a": 100,
-"b": 100
-}
-],
 "id": 1,
 "tags": [
 "",
@@ -7895,10 +10232,212 @@
 {},
 {}
 ]
+},
+{
+"uid": "O_BREAK",
+"depths": [
+{
+"a": 80,
+"b": 100
+},
+{
+"y": 1024,
+"a": 80,
+"b": 100
 }
 ],
-"sid": 107,
-"uid": "S_MAPS"
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 644,
+"y": 377,
+"parallax": 100,
+"placement": "BACK",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_SCROLLWHEEL",
+"depths": [
+{
+"a": 10,
+"b": 100
+},
+{
+"y": 1024,
+"a": 10,
+"b": 100
+}
+],
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 902,
+"y": 377,
+"parallax": 100,
+"placement": "HUD A",
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_HERO",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 910,
+"y": 512,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_HOMEBTN",
+"depths": [
+{
+"a": 10,
+"b": 100
+},
+{
+"y": 1024,
+"a": 10,
+"b": 100
+}
+],
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 879,
+"y": 906,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"labels": [
+{
+"name": "FREQUENCY",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 714,
+"y": 123,
+"width": 348,
+"height": 198,
+"text": {
+"en": "fe"
+}
+}
+],
+"sid": 112,
+"uid": "S_RADIO"
 }
 ],
 "objects": [
@@ -16835,6 +19374,416 @@
 }
 ]
 }
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 512,
+"height": 512,
+"x": 256,
+"y": 256
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "9b0c46371e47da4814d8a5a0b4183c43",
+"wtrim": 512,
+"htrim": 512,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 516,
+"hdraw": 516
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 113,
+"uid": "O_SCROLLWHEEL",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 512,
+"h": 512
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 280,
+"height": 280
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "0ea9da6a5e1f097de39b1f86212b26aa",
+"wtrim": 280,
+"htrim": 280,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 284,
+"hdraw": 284
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 115,
+"uid": "O_PIC8",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 280,
+"h": 280
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 280,
+"height": 280
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "7d1bee06c099bb851cb7ed0dc142e30e",
+"wtrim": 280,
+"htrim": 280,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 284,
+"hdraw": 284
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 116,
+"uid": "O_PIC9",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 280,
+"h": 280
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
 }
 ],
 "players": [
@@ -16850,7 +19799,7 @@
 }
 ],
 "meta": {
-"nextAssetID": 109
+"nextAssetID": 117
 },
 "roles": [
 {
@@ -17112,7 +20061,7 @@
 "uid": "R_GOHOME",
 "graph": {
 "board": {
-"nextid": 67,
+"nextid": 76,
 "x": 674,
 "y": 459,
 "boxes": [
@@ -17161,15 +20110,15 @@
 "uid": "R_NAVIGATE",
 "graph": {
 "board": {
-"nextid": 212,
-"x": 602,
-"y": 417,
+"nextid": 298,
+"x": 658,
+"y": 369,
 "boxes": [
 {
 "type": 1287,
 "id": 3,
-"x": -329,
-"y": -174,
+"x": -351,
+"y": -200,
 "plugs": [
 {
 "id": 4,
@@ -17187,8 +20136,8 @@
 "type": 513,
 "id": 5,
 "comment": "go to chair app",
-"x": -108,
-"y": -175,
+"x": -116,
+"y": -200,
 "plugs": [
 {
 "id": 6,
@@ -17322,6 +20271,43 @@
 ],
 "script": "jump S_GALERY",
 "plugCount": 1
+},
+{
+"type": 1287,
+"id": 284,
+"x": -337,
+"y": -97,
+"plugs": [
+{
+"id": 285,
+"type": 3,
+"trgs": [
+287
+]
+}
+],
+"varCmp": "==",
+"scene": "S_HOMESCREEN",
+"obj": "O_ICONMAPS"
+},
+{
+"type": 513,
+"id": 286,
+"comment": "go to radio app",
+"x": -119,
+"y": -99,
+"plugs": [
+{
+"id": 287,
+"type": 2
+},
+{
+"id": 288,
+"type": 3
+}
+],
+"script": "jump S_RADIO\r\n",
+"plugCount": 1
 }
 ]
 }
@@ -17332,8 +20318,8 @@
 "uid": "R_GOTOTEXTS",
 "graph": {
 "board": {
-"nextid": 272,
-"x": 841,
+"nextid": 457,
+"x": 843,
 "y": 532,
 "boxes": [
 {
@@ -17484,11 +20470,47 @@
 "type": 256,
 "id": 127,
 "resize": true,
-"width": 302,
-"height": 262,
+"width": 299,
+"height": 324,
 "x": -383,
 "y": -314,
 "name": "get to msgs"
+},
+{
+"type": 1285,
+"id": 308,
+"x": -342,
+"y": -60,
+"plugs": [
+{
+"id": 309,
+"type": 3,
+"trgs": [
+311
+]
+}
+],
+"varCmp": "==",
+"scene": "S_MESSAGE",
+"label": "COMRADE"
+},
+{
+"type": 513,
+"id": 310,
+"x": -199,
+"y": -59,
+"plugs": [
+{
+"id": 311,
+"type": 2
+},
+{
+"id": 312,
+"type": 3
+}
+],
+"script": "jump S_COMRADETEXT\r\n\r\n",
+"plugCount": 1
 }
 ]
 }
@@ -17499,9 +20521,9 @@
 "uid": "R_TEXTS",
 "graph": {
 "board": {
-"nextid": 330,
-"x": 495,
-"y": 356,
+"nextid": 420,
+"x": 490,
+"y": 361,
 "boxes": [
 {
 "type": 513,
@@ -17558,8 +20580,8 @@
 {
 "type": 513,
 "id": 170,
-"x": 336,
-"y": -8,
+"x": 334,
+"y": -15,
 "plugs": [
 {
 "id": 171,
@@ -17771,15 +20793,15 @@
 "uid": "R_GALERY",
 "graph": {
 "board": {
-"nextid": 44,
-"x": 613,
-"y": 508,
+"nextid": 255,
+"x": 448,
+"y": 450,
 "boxes": [
 {
 "type": 1287,
 "id": 3,
-"x": -225,
-"y": -176,
+"x": -238,
+"y": -60,
 "plugs": [
 {
 "id": 4,
@@ -17796,8 +20818,8 @@
 {
 "type": 513,
 "id": 5,
-"x": -53,
-"y": -176,
+"x": -69,
+"y": -61,
 "plugs": [
 {
 "id": 6,
@@ -17810,6 +20832,1115 @@
 ],
 "script": "jump S_HOMESCREEN",
 "plugCount": 1
+},
+{
+"type": 261,
+"id": 58,
+"x": -232,
+"y": -400,
+"plugs": [
+{
+"id": 59,
+"type": 3,
+"trgs": [
+66
+]
+}
+]
+},
+{
+"type": 513,
+"id": 60,
+"x": 194,
+"y": -403,
+"plugs": [
+{
+"id": 61,
+"type": 2
+},
+{
+"id": 62,
+"type": 3
+}
+],
+"script": "cursor mx my\r\n\r\nif equal $under true\r\n\tsub my $diff\r\nelse\r\n\tadd my $diff\r\nend\r\n\r\nmove_in_pixels O_PIC5 $ox $my",
+"plugCount": 1
+},
+{
+"type": 1299,
+"id": 63,
+"x": -241,
+"y": -277,
+"plugs": [
+{
+"id": 64,
+"type": 3,
+"trgs": [
+70
+]
+}
+],
+"varCmp": "==",
+"button": "MAIN"
+},
+{
+"type": 1025,
+"id": 65,
+"x": -107,
+"y": -401,
+"plugs": [
+{
+"id": 66,
+"type": 2
+},
+{
+"id": 67,
+"type": 3,
+"trgs": [
+61
+]
+},
+{
+"id": 68,
+"type": 3
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 1025,
+"id": 69,
+"x": -101,
+"y": -276,
+"plugs": [
+{
+"id": 70,
+"type": 2
+},
+{
+"id": 71,
+"type": 3,
+"trgs": [
+74
+]
+},
+{
+"id": 72,
+"type": 3,
+"trgs": [
+77
+]
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 513,
+"id": 73,
+"x": 64,
+"y": -284,
+"plugs": [
+{
+"id": 74,
+"type": 2
+},
+{
+"id": 75,
+"type": 3
+}
+],
+"script": "set clickedOnce false\r\n\r\n",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 76,
+"x": 64,
+"y": -229,
+"plugs": [
+{
+"id": 77,
+"type": 2
+},
+{
+"id": 78,
+"type": 3
+}
+],
+"script": "set clickedOnce true\r\ncursor mx my\r\npos_in_pixels O_PIC5 ox oy\r\nset diff 0\r\n\r\nif less $oy $my\r\n\tset diff $oy\r\n\tsub diff $my\r\n\tset under false\r\n\t\r\nelse_if greater $oy $my\r\n\tset diff $my\r\n\tsub diff $oy\r\n\tset under true\r\nend\r\n",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 151,
+"x": -92,
+"y": -148,
+"plugs": [
+{
+"id": 152,
+"type": 2
+},
+{
+"id": 153,
+"type": 3
+}
+],
+"script": "set clickedOnce false",
+"plugCount": 1
+},
+{
+"type": 1284,
+"id": 154,
+"x": -236,
+"y": -148,
+"plugs": [
+{
+"id": 155,
+"type": 3,
+"trgs": [
+152
+]
+}
+],
+"varCmp": "==",
+"scene": "S_GALERY",
+"mode": "JUMP"
+}
+]
+}
+}
+},
+{
+"sid": 109,
+"uid": "R_TEXTSBFF",
+"graph": {
+"board": {
+"nextid": 375,
+"x": 490,
+"y": 361,
+"boxes": [
+{
+"type": 513,
+"id": 3,
+"comment": "go back to messages",
+"x": 136,
+"y": -178,
+"plugs": [
+{
+"id": 4,
+"type": 2
+},
+{
+"id": 5,
+"type": 3
+}
+],
+"script": "jump S_MESSAGE",
+"plugCount": 1
+},
+{
+"type": 1287,
+"id": 24,
+"x": -69,
+"y": -177,
+"plugs": [
+{
+"id": 25,
+"type": 3,
+"trgs": [
+4
+]
+}
+],
+"varCmp": "==",
+"scene": "S_BESTFTEXT",
+"obj": "O_RETURNBTN"
+},
+{
+"type": 261,
+"id": 168,
+"x": -90,
+"y": -5,
+"plugs": [
+{
+"id": 169,
+"type": 3,
+"trgs": [
+279
+]
+}
+]
+},
+{
+"type": 513,
+"id": 170,
+"x": 336,
+"y": -8,
+"plugs": [
+{
+"id": 171,
+"type": 2
+},
+{
+"id": 172,
+"type": 3
+}
+],
+"script": "cursor mx my\r\n\r\nif equal $under true\r\n\tsub my $diff\r\nelse\r\n\tadd my $diff\r\nend\r\n\r\nmove_in_pixels O_RECEIVERMEDIUM2 $ox $my",
+"plugCount": 1
+},
+{
+"type": 1299,
+"id": 258,
+"x": -108,
+"y": 117,
+"plugs": [
+{
+"id": 259,
+"type": 3,
+"trgs": [
+283
+]
+}
+],
+"varCmp": "==",
+"button": "MAIN"
+},
+{
+"type": 1025,
+"id": 278,
+"x": 35,
+"y": -6,
+"plugs": [
+{
+"id": 279,
+"type": 2
+},
+{
+"id": 280,
+"type": 3,
+"trgs": [
+171
+]
+},
+{
+"id": 281,
+"type": 3
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 1025,
+"id": 282,
+"x": 41,
+"y": 119,
+"plugs": [
+{
+"id": 283,
+"type": 2
+},
+{
+"id": 284,
+"type": 3,
+"trgs": [
+287
+]
+},
+{
+"id": 285,
+"type": 3,
+"trgs": [
+299
+]
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 513,
+"id": 286,
+"x": 206,
+"y": 111,
+"plugs": [
+{
+"id": 287,
+"type": 2
+},
+{
+"id": 288,
+"type": 3
+}
+],
+"script": "set clickedOnce false\r\n\r\n",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 298,
+"x": 204,
+"y": 166,
+"plugs": [
+{
+"id": 299,
+"type": 2
+},
+{
+"id": 300,
+"type": 3
+}
+],
+"script": "set clickedOnce true\r\ncursor mx my\r\npos_in_pixels O_RECEIVERMEDIUM2 ox oy\r\nset diff 0\r\n\r\nif less $oy $my\r\n\tset diff $oy\r\n\tsub diff $my\r\n\tset under false\r\n\t\r\nelse_if greater $oy $my\r\n\tset diff $my\r\n\tsub diff $oy\r\n\tset under true\r\nend\r\n",
+"plugCount": 1
+},
+{
+"type": 1284,
+"id": 316,
+"x": -168,
+"y": 264,
+"plugs": [
+{
+"id": 317,
+"type": 3,
+"trgs": [
+319
+]
+}
+],
+"varCmp": "==",
+"scene": "S_BESTFTEXT",
+"mode": "JUMP"
+},
+{
+"type": 513,
+"id": 318,
+"x": -24,
+"y": 264,
+"plugs": [
+{
+"id": 319,
+"type": 2
+},
+{
+"id": 320,
+"type": 3
+}
+],
+"script": "set clickedOnce false",
+"plugCount": 1
+}
+]
+}
+}
+},
+{
+"sid": 110,
+"uid": "R_TEXTSHELP",
+"graph": {
+"board": {
+"nextid": 375,
+"x": 490,
+"y": 361,
+"boxes": [
+{
+"type": 513,
+"id": 3,
+"comment": "go back to messages",
+"x": 136,
+"y": -178,
+"plugs": [
+{
+"id": 4,
+"type": 2
+},
+{
+"id": 5,
+"type": 3
+}
+],
+"script": "jump S_MESSAGE",
+"plugCount": 1
+},
+{
+"type": 1287,
+"id": 24,
+"x": -69,
+"y": -177,
+"plugs": [
+{
+"id": 25,
+"type": 3,
+"trgs": [
+4
+]
+}
+],
+"varCmp": "==",
+"scene": "S_HELPERTEXT",
+"obj": "O_RETURNBTN"
+},
+{
+"type": 261,
+"id": 168,
+"x": -90,
+"y": -5,
+"plugs": [
+{
+"id": 169,
+"type": 3,
+"trgs": [
+279
+]
+}
+]
+},
+{
+"type": 513,
+"id": 170,
+"x": 336,
+"y": -8,
+"plugs": [
+{
+"id": 171,
+"type": 2
+},
+{
+"id": 172,
+"type": 3
+}
+],
+"script": "cursor mx my\r\n\r\nif equal $under true\r\n\tsub my $diff\r\nelse\r\n\tadd my $diff\r\nend\r\n\r\nmove_in_pixels O_RECEIVERMEDIUM2 $ox $my",
+"plugCount": 1
+},
+{
+"type": 1299,
+"id": 258,
+"x": -108,
+"y": 117,
+"plugs": [
+{
+"id": 259,
+"type": 3,
+"trgs": [
+283
+]
+}
+],
+"varCmp": "==",
+"button": "MAIN"
+},
+{
+"type": 1025,
+"id": 278,
+"x": 35,
+"y": -6,
+"plugs": [
+{
+"id": 279,
+"type": 2
+},
+{
+"id": 280,
+"type": 3,
+"trgs": [
+171
+]
+},
+{
+"id": 281,
+"type": 3
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 1025,
+"id": 282,
+"x": 41,
+"y": 119,
+"plugs": [
+{
+"id": 283,
+"type": 2
+},
+{
+"id": 284,
+"type": 3,
+"trgs": [
+287
+]
+},
+{
+"id": 285,
+"type": 3,
+"trgs": [
+299
+]
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 513,
+"id": 286,
+"x": 206,
+"y": 111,
+"plugs": [
+{
+"id": 287,
+"type": 2
+},
+{
+"id": 288,
+"type": 3
+}
+],
+"script": "set clickedOnce false\r\n\r\n",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 298,
+"x": 204,
+"y": 166,
+"plugs": [
+{
+"id": 299,
+"type": 2
+},
+{
+"id": 300,
+"type": 3
+}
+],
+"script": "set clickedOnce true\r\ncursor mx my\r\npos_in_pixels O_RECEIVERMEDIUM2 ox oy\r\nset diff 0\r\n\r\nif less $oy $my\r\n\tset diff $oy\r\n\tsub diff $my\r\n\tset under false\r\n\t\r\nelse_if greater $oy $my\r\n\tset diff $my\r\n\tsub diff $oy\r\n\tset under true\r\nend\r\n",
+"plugCount": 1
+},
+{
+"type": 1284,
+"id": 316,
+"x": -168,
+"y": 264,
+"plugs": [
+{
+"id": 317,
+"type": 3,
+"trgs": [
+319
+]
+}
+],
+"varCmp": "==",
+"scene": "S_HELPERTEXT",
+"mode": "JUMP"
+},
+{
+"type": 513,
+"id": 318,
+"x": -24,
+"y": 264,
+"plugs": [
+{
+"id": 319,
+"type": 2
+},
+{
+"id": 320,
+"type": 3
+}
+],
+"script": "set clickedOnce false",
+"plugCount": 1
+}
+]
+}
+}
+},
+{
+"sid": 111,
+"uid": "R_TEXTSCOMR",
+"graph": {
+"board": {
+"nextid": 375,
+"x": 490,
+"y": 361,
+"boxes": [
+{
+"type": 513,
+"id": 3,
+"comment": "go back to messages",
+"x": 136,
+"y": -178,
+"plugs": [
+{
+"id": 4,
+"type": 2
+},
+{
+"id": 5,
+"type": 3
+}
+],
+"script": "jump S_MESSAGE",
+"plugCount": 1
+},
+{
+"type": 1287,
+"id": 24,
+"x": -69,
+"y": -177,
+"plugs": [
+{
+"id": 25,
+"type": 3,
+"trgs": [
+4
+]
+}
+],
+"varCmp": "==",
+"scene": "S_COMRADETEXT",
+"obj": "O_RETURNBTN"
+},
+{
+"type": 261,
+"id": 168,
+"x": -90,
+"y": -5,
+"plugs": [
+{
+"id": 169,
+"type": 3,
+"trgs": [
+279
+]
+}
+]
+},
+{
+"type": 513,
+"id": 170,
+"x": 336,
+"y": -8,
+"plugs": [
+{
+"id": 171,
+"type": 2
+},
+{
+"id": 172,
+"type": 3
+}
+],
+"script": "cursor mx my\r\n\r\nif equal $under true\r\n\tsub my $diff\r\nelse\r\n\tadd my $diff\r\nend\r\n\r\nmove_in_pixels O_RECEIVERMEDIUM2 $ox $my",
+"plugCount": 1
+},
+{
+"type": 1299,
+"id": 258,
+"x": -108,
+"y": 117,
+"plugs": [
+{
+"id": 259,
+"type": 3,
+"trgs": [
+283
+]
+}
+],
+"varCmp": "==",
+"button": "MAIN"
+},
+{
+"type": 1025,
+"id": 278,
+"x": 35,
+"y": -6,
+"plugs": [
+{
+"id": 279,
+"type": 2
+},
+{
+"id": 280,
+"type": 3,
+"trgs": [
+171
+]
+},
+{
+"id": 281,
+"type": 3
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 1025,
+"id": 282,
+"x": 41,
+"y": 119,
+"plugs": [
+{
+"id": 283,
+"type": 2
+},
+{
+"id": 284,
+"type": 3,
+"trgs": [
+287
+]
+},
+{
+"id": 285,
+"type": 3,
+"trgs": [
+299
+]
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 513,
+"id": 286,
+"x": 206,
+"y": 111,
+"plugs": [
+{
+"id": 287,
+"type": 2
+},
+{
+"id": 288,
+"type": 3
+}
+],
+"script": "set clickedOnce false\r\n\r\n",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 298,
+"x": 204,
+"y": 166,
+"plugs": [
+{
+"id": 299,
+"type": 2
+},
+{
+"id": 300,
+"type": 3
+}
+],
+"script": "set clickedOnce true\r\ncursor mx my\r\npos_in_pixels O_RECEIVERMEDIUM2 ox oy\r\nset diff 0\r\n\r\nif less $oy $my\r\n\tset diff $oy\r\n\tsub diff $my\r\n\tset under false\r\n\t\r\nelse_if greater $oy $my\r\n\tset diff $my\r\n\tsub diff $oy\r\n\tset under true\r\nend\r\n",
+"plugCount": 1
+},
+{
+"type": 1284,
+"id": 316,
+"x": -168,
+"y": 264,
+"plugs": [
+{
+"id": 317,
+"type": 3,
+"trgs": [
+319
+]
+}
+],
+"varCmp": "==",
+"scene": "S_COMRADETEXT",
+"mode": "JUMP"
+},
+{
+"type": 513,
+"id": 318,
+"x": -24,
+"y": 264,
+"plugs": [
+{
+"id": 319,
+"type": 2
+},
+{
+"id": 320,
+"type": 3
+}
+],
+"script": "set clickedOnce false",
+"plugCount": 1
+}
+]
+}
+}
+},
+{
+"sid": 114,
+"uid": "R_RADIO",
+"graph": {
+"board": {
+"nextid": 670,
+"x": 327,
+"y": 240,
+"boxes": [
+{
+"type": 261,
+"id": 168,
+"x": -90,
+"y": -5,
+"plugs": [
+{
+"id": 169,
+"type": 3,
+"trgs": [
+279
+]
+}
+]
+},
+{
+"type": 513,
+"id": 170,
+"x": 230,
+"y": -7,
+"plugs": [
+{
+"id": 171,
+"type": 2
+},
+{
+"id": 172,
+"type": 3,
+"trgs": [
+667
+]
+}
+],
+"script": "cursor mx my\r\npos_in_pixels O_SCROLLWHEEL ox oy\r\nif greater $mx 1150\r\n\tset mx 1150\r\nelse_if less $mx 650\r\n\tset mx 650\r\nend\r\nset freq $mx\r\nsub freq 650\r\nfdiv freq 5\r\nif equal freq 92.4\r\n\tset there true\r\nend\r\nif equal freq 92.6\r\n\tset there true\r\nend \r\ncat freq \"FM\"\r\nreplace_label_text S_RADIO FREQUENCY $freq\r\nmove_in_pixels O_SCROLLWHEEL $mx $oy",
+"plugCount": 1
+},
+{
+"type": 1025,
+"id": 278,
+"x": 35,
+"y": -6,
+"plugs": [
+{
+"id": 279,
+"type": 2
+},
+{
+"id": 280,
+"type": 3,
+"trgs": [
+171
+]
+},
+{
+"id": 281,
+"type": 3
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 1025,
+"id": 282,
+"x": 23,
+"y": 262,
+"plugs": [
+{
+"id": 283,
+"type": 2
+},
+{
+"id": 284,
+"type": 3,
+"trgs": [
+287
+]
+},
+{
+"id": 285,
+"type": 3,
+"trgs": [
+299
+]
+}
+],
+"variable": "clickedOnce"
+},
+{
+"type": 513,
+"id": 286,
+"x": 188,
+"y": 254,
+"plugs": [
+{
+"id": 287,
+"type": 2
+},
+{
+"id": 288,
+"type": 3
+}
+],
+"script": "set clickedOnce false\r\n\r\n",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 298,
+"x": 190,
+"y": 320,
+"plugs": [
+{
+"id": 299,
+"type": 2
+},
+{
+"id": 300,
+"type": 3
+}
+],
+"script": "set clickedOnce true\r\n",
+"plugCount": 1
+},
+{
+"type": 1284,
+"id": 316,
+"x": -186,
+"y": 407,
+"plugs": [
+{
+"id": 317,
+"type": 3,
+"trgs": [
+319
+]
+}
+],
+"varCmp": "==",
+"scene": "S_RADIO",
+"mode": "JUMP"
+},
+{
+"type": 513,
+"id": 318,
+"x": -42,
+"y": 407,
+"plugs": [
+{
+"id": 319,
+"type": 2
+},
+{
+"id": 320,
+"type": 3
+}
+],
+"script": "set clickedOnce false",
+"plugCount": 1
+},
+{
+"type": 1287,
+"id": 456,
+"x": -174,
+"y": 530,
+"plugs": [
+{
+"id": 457,
+"type": 3,
+"trgs": [
+459
+]
+}
+],
+"varCmp": "==",
+"scene": "S_RADIO",
+"obj": "O_HOMEBTN"
+},
+{
+"type": 513,
+"id": 458,
+"x": 32,
+"y": 527,
+"plugs": [
+{
+"id": 459,
+"type": 2
+},
+{
+"id": 460,
+"type": 3
+}
+],
+"script": "jump S_HOMESCREEN",
+"plugCount": 1
+},
+{
+"type": 1299,
+"id": 607,
+"x": -170,
+"y": 257,
+"plugs": [
+{
+"id": 608,
+"type": 3,
+"trgs": [
+283
+]
+}
+],
+"varCmp": "==",
+"button": "MAIN"
+},
+{
+"type": 513,
+"id": 654,
+"x": 484,
+"y": -9,
+"plugs": [
+{
+"id": 655,
+"type": 2
+},
+{
+"id": 656,
+"type": 3
+}
+],
+"script": "play_song",
+"plugCount": 1
+},
+{
+"type": 1025,
+"id": 666,
+"x": 359,
+"y": -7,
+"plugs": [
+{
+"id": 667,
+"type": 2
+},
+{
+"id": 668,
+"type": 3,
+"trgs": [
+655
+]
+},
+{
+"id": 669,
+"type": 3
+}
+],
+"variable": "there"
 }
 ]
 }
